@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "raspberry-warden"
+version = "0.1.0"
+description = ""
+authors = ["Valter Nepomuceno <valter.nep@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gpio = "^1.0.0"
+coloredlogs = "^15.0.1"
+click = "^8.1.7"
+black = "^24.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
